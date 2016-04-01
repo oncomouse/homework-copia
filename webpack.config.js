@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: './javascripts/app.js',
     output: {
-        path: __dirname,
+        path: path.join(__dirname, 'dist'),
         filename: 'bundle.js'
     },
 	include: [
@@ -17,9 +17,15 @@ module.exports = {
 			path.resolve('./stylesheets/')
 		]
 	},
+	devtool: 'cheap-module-source-map',
     plugins: [
-		new webpack.optimize.DedupePlugin(),
-		new webpack.IgnorePlugin(/^fs$/) // This is how we get RiTa to load without 'fs'
+		//new webpack.optimize.DedupePlugin(),
+		new webpack.IgnorePlugin(/^fs$/), // This is how we get RiTa to load without 'fs'
+		new webpack.DefinePlugin({
+		    'process.env': {
+		      'NODE_ENV': JSON.stringify('production')
+		    }
+		  })
     ],
 	watch: true,
     module: {
