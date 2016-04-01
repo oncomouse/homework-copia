@@ -10,6 +10,7 @@ import NewButton from './components/NewButton.jsx';
 
 ReactDOM.render(
 	<div>
+		<h1>Where's Your Homework?</h1>
 		<Canvas initial={1}/>
 		<Timer delay={2.7}/>
 	</div>,
