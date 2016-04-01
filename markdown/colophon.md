@@ -2,7 +2,7 @@
 
 This project algorithmically generates an example of what [Desiderius Erasmus](https://en.wikipedia.org/wiki/Desiderius_Erasmus) called a *copia*. In *De Copia*, he suggests practicing the "abundant style" through by imagining copious variation on given phrases. [James J Brown, Jr.](http://jamesjbrownjr.net/) argues in ["The Machine That I Therefore Am"](http://muse.jhu.edu/journals/philosophy_and_rhetoric/v047/47.4.brown.html) that Erasmus's *copia* are tiny rhetorical algorithms and, as an example, discusses [@YourLetterBot](https://twitter.com/YourLetterBot), which algorithmic produces further versions of the 195 variations on the sentence "Your Letter Pleased Me Greatly" that Eramus offers in Section 33 of *De Copia*.
 
-This website generates *copia* from the famous excuse "My dog ate my homework" using a fairly simple computerized grammar.
+This website generates *copia* from the famous excuse "My dog ate my homework" using a fairly simple computerized grammar. You can also follow the excuses at [@HomeworkCopia](https://twitter.com/HomeworkCopia).
 
 ## How Was This Made?
 
